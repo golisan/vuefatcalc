@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Calc logo" src="./assets/calc.png" width="50" height="50" align="left">
+    <br>
+    <HelloWorld msg="Willkommen zu deinem Fett-Rechner"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Calc from './components/Calc.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld: Calc
   }
 }
 </script>
