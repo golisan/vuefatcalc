@@ -1,8 +1,10 @@
 <template>
   <div id="app">
+    <!--
     <img alt="Calc logo" src="./assets/calc.png" width="50" height="50" align="left">
+    //-->
     <br>
-    <HelloWorld msg="Willkommen zu deinem Fett-Rechner"/>
+    <calc msg="Willkommen zu deinem Fett-Rechner"/>
   </div>
 </template>
 
@@ -12,8 +14,9 @@ import Calc from './components/Calc.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld: Calc
+    calc: Calc
   }
+
 }
 </script>
 

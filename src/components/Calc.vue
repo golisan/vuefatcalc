@@ -1,13 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h3>Alles ok</h3>
+    <h2>Heute</h2>
+  </div>
+  <div id="components-demo">
+  <button-counter></button-counter>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Calc',
   props: {
     msg: String
   }
